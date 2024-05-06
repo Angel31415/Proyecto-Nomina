@@ -1,0 +1,139 @@
+body{
+    background-color: #EACFF3;
+  }
+  h1{
+    text-align: center;
+    margin-top: 60px;
+    color: #096372;
+    font-size: 80px;
+  }
+  
+  .contenedor {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .nombre-texto {
+    margin-right: 20px; 
+    font-size: 40px;
+  }
+  
+  .nombre {
+    background-color: #AAC9CE;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+  }
+  .contenedor1 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .apellido-texto {
+    margin-right: 5px; 
+    font-size: 40px;
+  }
+  
+  .apellido {
+    background-color: #AAC9CE;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+  }
+  
+  .contenedor3{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .contenedor3 button + button {
+    margin-left: 90px; 
+  }
+  
+  .contenedor4 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .correo-texto {
+    margin-right: 12px; 
+    font-size: 40px;
+  }
+  
+  .correo1 {
+    background-color: #AAC9CE;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+  }
+  
+  .contenedor5 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .contraseña-texto {
+    margin-right: -40px; 
+    font-size: 40px;
+  }
+  
+  .contraseña {
+    background-color: #AAC9CE;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+  }
+  
+  .contenedor6 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .telefono-texto {
+    margin-right: 15px; 
+    font-size: 40px;
+  }
+  
+  .telefono {
+    background-color: #AAC9CE;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    margin-left: 80px;
+  }
+  
+  .inicio{
+    border: none;
+    background-color:  #AAC9CE;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #096372;
+    cursor: pointer;
+  }
+  .Cancelar{
+    border: none;
+    background-color:  #AAC9CE;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #096372;
+    cursor: pointer;
+  }
