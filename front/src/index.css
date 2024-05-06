@@ -1,0 +1,222 @@
+body{
+  background-color: #EACFF3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C9BBC8;
+  padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+}
+
+.navbar-title {
+  font-size: 60px;
+  color: #BA677E;
+  margin-left: 10%;
+}
+
+.navbar-links {
+  display: flex;
+  margin-right: 20%;
+  font-size: 30px;
+  margin-top: 12px;
+  
+}
+
+.navbar-link {
+  margin-left: 20px; /* Ajusta el margen entre los enlaces */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  color: #BA677E;
+  background-color: #EBD8DD;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.Servicios{
+  margin-top: 100px;
+  margin-left: 20%;
+  color: #096372;
+  font-size: 50px;
+}
+
+.liquidacion-container {
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  display: flex;
+  margin-left: 15%;
+}
+
+.liquidacion {
+  background-color: #AAC9CE;
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+  border-radius: 5px;
+  text-align: center;
+  width: 400px; /* Ajusta el ancho según sea necesario */
+  height: 150px;
+}
+
+.titulo{
+  margin-top: 0px;
+  font-size: 40px;
+  color: #BA677E;
+}
+p{
+  color: #CD2151;
+  font-size: 20px;
+}
+
+.liquidacion h2 {
+  margin-bottom: 25px; /* Ajusta el margen inferior del título según sea necesario */
+}
+
+.liquidacion p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+.Empleados-container {
+  margin-top: 40px; /* Ajusta el margen superior según sea necesario */
+  display: flex;
+  margin-left: 55%;
+}
+
+.empleados {
+  background-color: #AAC9CE;
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+  border-radius: 5px;
+  text-align: center;
+  width: 400px; /* Ajusta el ancho según sea necesario */
+  height: 150px;
+}
+
+.titulo-empleados{
+  margin-top: 0px;
+  font-size: 40px;
+  color: #BA677E;
+}
+p{
+  color: #CD2151;
+  font-size: 20px;
+}
+
+.empleados h2 {
+  margin-bottom: 25px; /* Ajusta el margen inferior del título según sea necesario */
+}
+
+.empleados p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+.FAQ-container {
+  margin-top: 60px; /* Ajusta el margen superior según sea necesario */
+  display: flex;
+  margin-left: 15%;
+}
+
+.FAQ {
+  background-color: #AAC9CE;
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+  border-radius: 5px;
+  text-align: center;
+  width: 400px; /* Ajusta el ancho según sea necesario */
+  height: 150px;
+}
+
+.titulo-FAQ{
+  margin-top: 0px;
+  font-size: 40px;
+  color: #BA677E;
+}
+p{
+  color: #CD2151;
+  font-size: 20px;
+}
+
+.FAQ h2 {
+  margin-bottom: 25px; /* Ajusta el margen inferior del título según sea necesario */
+}
+
+.FAQ p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+.img1{
+  margin-top: 0px;
+  margin-left: 0%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.img2{
+  margin-top: -300px;
+  margin-left: 43%;
+ 
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+}
+
+.footer{
+  background-color: #C9BBC8;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 0px;
+}
+.contactenos{
+  color: #BA677E;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.Redes{
+margin-left: 60%;
+font-size: 40px;
+color:  #BA677E;
+margin-top: -245px;
+}
+.linea{
+  width: 40px;
+  height: 100%;
+  margin-left: 55%;
+  margin-top: -100px;
+}
+
+.tel{
+  font-size: 20px;
+}
+.correo{
+  font-size: 20px;
+}
+.dir{
+  font-size: 20px;
+}
+.logos{
+  margin-left: 58%;
+  display: flex; 
+  flex-direction: column;
+  margin-top: -230px;
+}
+.facebook,
+.instagram,
+.twiter {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px; 
+}
+.facebook-text{
+  margin-left: 65%;
+  margin-top: -190px;
+  font-size: 20px;
+}
+.instagram-text{
+  margin-left: 65%;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.twiter-text{
+  margin-left: 65%;
+  margin-top: 50px;
+  font-size: 20px;
+}
