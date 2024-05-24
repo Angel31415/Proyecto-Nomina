@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+import "./Empleados.css";
 export function Empleados(){
     return(
         <section>
         <nav className="navbar">
         <div className="navbar-title">Nominaria</div>
         <div className="navbar-links">
-        <a href="/Principal" className="navbar-link">Inicio</a>
-          <a href="/inicio-sesion" className="navbar-link">Inicio de Sesión</a>
-          <a href="/registro" className="navbar-link">Registro</a> 
+        <Link to="/" className="navbar-link">Inicio</Link>
+          <Link to="/Inicio-Sesion" className="navbar-link">Inicio de Sesión</Link>
+          <Link to="Rregistro" className="navbar-link">Registro</Link> 
         </div>
       </nav>
       <h1 className="Empleados">Empleados</h1>
@@ -18,7 +20,7 @@ export function Empleados(){
     </div>
     
     <div class="search-container">
-  <img src="./img/lupa.png" alt="lupa" className="lupa"></img>
+  <img src="./imagenes-nomidanira/lupa.png" alt="lupa" className="lupa"></img>
   <input type="text" name="Buscar" placeholder="Buscar" className="Buscar"></input>
 </div>
     <div className="contenedor">
@@ -50,11 +52,11 @@ export function Empleados(){
                 <h4 className="correo">Correo electronico: nominariacol@gmail.com </h4>
                 <h4 className="dir">Dirección: cra20B #54-70 circular sur </h4>
                <h4 className="Redes">Redes sociales</h4>
-               <img src="./img/linea.png" alt="linea"  className="linea"/>
+               <img src="./imagenes-nominaria/linea.png" alt="linea"  className="linea"/>
                <div className="logos">
-               <img src="./img/facebook.jpg" alt="facebook"  className="facebook"/>
-               <img src="./img/instagram.jpg" alt="instagram"  className="instagram"/>
-               <img src="./img/twiter.jpg" alt="twiter"  className="twiter"/>
+               <img src="./imagenes-nominaria/facebook.jpg" alt="facebook"  className="facebook"/>
+               <img src="./imagenes-nominaria/instagram.jpg" alt="instagram"  className="instagram"/>
+               <img src="./imagenes-nominaria/twiter.jpg" alt="twiter"  className="twiter"/>
                </div>
                <h4 className="facebook-text">facebook: nominariaCol</h4>
                <h4 className="instagram-text">Instagram: nominaria_col</h4>

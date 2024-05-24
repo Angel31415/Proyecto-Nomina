@@ -1,9 +1,9 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Principal from "./components/pages/Principal";
-import Registro from "./components/pages/Registro";
-import Iniciosesion from "./components/pages/InicioSesion";
-import Liquidacion from "./components/pages/Liquidacion";
-import Empleados from "./components/pages/Empleados";
+import Principal from "./components/layaouts/pages/Principal";
+import Registro from "./components/layaouts/pages/Registro";
+import Iniciosesion from "./components/layaouts/pages/InicioSesion";
+import Liquidacion from "./components/layaouts/pages/Liquidacion";
+import Empleados from "./components/layaouts/pages/Empleados";
 const router = createBrowserRouter([
   //Importar los componentes con sus respectivas rutas
   {

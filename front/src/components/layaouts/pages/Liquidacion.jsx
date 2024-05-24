@@ -1,8 +1,9 @@
+import "./Liquidacion.css"
 export function Liquidacion(){
     return(
         <section>
         <h1>Liquidación</h1>
-        <div className="contenedor">
+        <div className="contenedor1">
             <h2 className="nombre-texto">Nombre del empleado:</h2>
             <input
             type="text"
@@ -62,11 +63,11 @@ export function Liquidacion(){
                 <h4 className="correo">Correo electronico: nominariacol@gmail.com </h4>
                 <h4 className="dir">Dirección: cra20B #54-70 circular sur </h4>
                <h4 className="Redes">Redes sociales</h4>
-               <img src="./img/linea.png" alt="linea"  className="linea"/>
+               <img src="./imagenes-nominaria/linea.png" alt="linea"  className="linea"/>
                <div className="logos">
-               <img src="./img/facebook.jpg" alt="facebook"  className="facebook"/>
-               <img src="./img/instagram.jpg" alt="instagram"  className="instagram"/>
-               <img src="./img/twiter.jpg" alt="twiter"  className="twiter"/>
+               <img src="./imagenes-nominaria/facebook.jpg" alt="facebook"  className="facebook"/>
+               <img src="./imagenes-nominaria/instagram.jpg" alt="instagram"  className="instagram"/>
+               <img src="./imagenes-nominaria/twiter.jpg" alt="twiter"  className="twiter"/>
                </div>
                <h4 className="facebook-text">facebook: nominariaCol</h4>
                <h4 className="instagram-text">Instagram: nominaria_col</h4>
