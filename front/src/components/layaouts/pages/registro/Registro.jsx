@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Registro.css"
+import "./registro/Registro.css"
 import { Link, useNavigate } from 'react-router-dom';
 
 
