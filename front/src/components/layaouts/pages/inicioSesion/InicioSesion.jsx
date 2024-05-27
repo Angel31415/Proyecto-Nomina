@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./inicioSesion/Iniciosesion.css"
+import "./Iniciosesion.css"
 import { Link, useNavigate } from 'react-router-dom';
 
 export function Iniciosesion() {

@@ -1,4 +1,4 @@
-import "./liquidacion/Liquidacion.css"
+import "./Liquidacion.css"
 export function Liquidacion(){
     return(
         <section>

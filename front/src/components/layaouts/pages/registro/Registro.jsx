@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./registro/Registro.css"
+import "./Registro.css"
 import { Link, useNavigate } from 'react-router-dom';
 
 
@@ -99,4 +99,4 @@ export function Registro(){
     </section>
     );
 };
-export default Registro
+export default Registro;

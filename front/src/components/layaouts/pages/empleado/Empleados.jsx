@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./empleado/Empleados.css";
+import "./Empleados.css";
 export function Empleados(){
     return(
         <section>

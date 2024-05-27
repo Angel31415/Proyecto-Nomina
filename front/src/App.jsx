@@ -1,22 +1,22 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Principal from "./components/layaouts/pages/Principal";
-import Registro from "./components/layaouts/pages/Registro";
-import Iniciosesion from "./components/layaouts/pages/InicioSesion";
-import Liquidacion from "./components/layaouts/pages/Liquidacion";
-import Empleados from "./components/layaouts/pages/Empleados";
+import Iniciosesion from "./components/layaouts/pages/inicioSesion/InicioSesion";
+import Liquidacion from "./components/layaouts/pages/liquidacion/Liquidacion";
+import Registro from "./components/layaouts/pages/registro/Registro";
+import Empleados from "./components/layaouts/pages/empleado/Empleados";
 const router = createBrowserRouter([
-  //Importar los componentes con sus respectivas rutas
+//Importar los componentes con sus respectivas rutas
   {
     path: "/",
     element: <Principal />,
   },
   {
     path: "/Registro",
-    element: <Registro />,
+    element: <Registro/>,
   },
   {
     path: "/Inicio-Sesion",
-    element: <Iniciosesion />,
+    element: <Iniciosesion/>,
   },
   {
     path: "/Liquidacion",
