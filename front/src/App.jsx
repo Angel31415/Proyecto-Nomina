@@ -4,6 +4,9 @@ import Iniciosesion from "./components/layaouts/pages/inicioSesion/InicioSesion"
 import Liquidacion from "./components/layaouts/pages/liquidacion/Liquidacion";
 import Registro from "./components/layaouts/pages/registro/Registro";
 import Empleados from "./components/layaouts/pages/empleado/Empleados";
+import Principaliniciosesion from "./components/layaouts/pages/principal-iniciosesion/Principal-iniciosesion";
+import Cuenta from "./components/layaouts/pages/cuenta/Cuenta";
+
 const router = createBrowserRouter([
 //Importar los componentes con sus respectivas rutas
   {
@@ -25,6 +28,14 @@ const router = createBrowserRouter([
   {
     path: "/Empleados",
     element: <Empleados />,
+  },
+  {
+    path: "/Principal-iniciosesion",
+    element: <Principaliniciosesion />
+  },
+  {
+    path: "/Cuenta",
+    element: <Cuenta />
   }
 ]);
 
