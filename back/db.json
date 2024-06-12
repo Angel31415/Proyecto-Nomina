@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "nombre": "daniel",
-      "apellido": "gamboa",
-      "correo": "danielgamboa858@gmail.com",
-      "contraseña": "1234",
-      "telefono": 3015869268
-    },
-    {
       "id": "541b",
       "nombre": "",
       "apellido": "",
@@ -215,6 +207,14 @@
       "correo": "danielgamboa858@gmail.com",
       "contraseña": "1234",
       "telefono": "3015869268"
+    },
+    {
+      "id": "4c85",
+      "nombre": "Alejandro",
+      "apellido": "Alvarez",
+      "correo": "alejandro@gmail.com",
+      "contraseña": "1234",
+      "telefono": "3225933603"
     }
   ]
 }

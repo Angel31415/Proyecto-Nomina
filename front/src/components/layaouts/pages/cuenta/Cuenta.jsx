@@ -1,6 +1,31 @@
-import { Link } from "react-router-dom"; 
-import "./Cuenta.css"
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import "./Cuenta.css";
+
 export function Cuenta(){
+  const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+  const navigate = useNavigate();
+
+  const handleDeleteUser = async () => {
+    try {
+      const response = await fetch(`http://localhost:3001/users/${currentUser.id}`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Usuario eliminado:', data);  
+        localStorage.removeItem('currentUser'); // Eliminamos los datos del usuario del almacenamiento local
+        navigate('/'); 
+      } else {
+        console.error('Error al eliminar usuario:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error al eliminar usuario:', error);
+    }
+  };
     return(
         <section>
              <nav className="navbar">
@@ -23,7 +48,7 @@ export function Cuenta(){
                     <div className="green-box long">DATOS PERSONALES</div>
                     <div className="green-box long">CONFIGURACIONES</div>
                     <Link to="/" type="button"><div className="green-box long">CERRAR SESIÓN</div></Link>
-                    <div className="green-box long">ELIMINAR USUARIO</div>
+                    <div className="green-box long" onClick={handleDeleteUser}>ELIMINAR USUARIO</div>
                 </div>
             </div>
       
