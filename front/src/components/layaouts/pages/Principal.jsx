@@ -32,12 +32,14 @@ export function Principal(){
         </div>
         </Link>
             <img src="./imagenes-nominaria/img-principal3.jpg" alt="principal3" className="img2"/>
+            <Link to="/Faq">
             <div className="FAQ-container">
                 <div className="FAQ">
                     <h2 className='titulo-FAQ'>FAQ</h2>
                     <p>Preguntas frecuentes acerca de nuestra página</p>
                 </div>
             </div>
+            </Link>
             <img src="./imagenes-nominaria/img-principal1.jpg" alt="principal3" className="img2"/>
 
             <div className="footer">

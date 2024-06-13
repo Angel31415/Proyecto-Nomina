@@ -6,6 +6,7 @@ import Registro from "./components/layaouts/pages/registro/Registro";
 import Empleados from "./components/layaouts/pages/empleado/Empleados";
 import Principaliniciosesion from "./components/layaouts/pages/principal-iniciosesion/Principal-iniciosesion";
 import Cuenta from "./components/layaouts/pages/cuenta/Cuenta";
+import FAQ from "./components/layaouts/pages/FAQ/faq";
 
 const router = createBrowserRouter([
 //Importar los componentes con sus respectivas rutas
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/Cuenta",
     element: <Cuenta />
+  },
+  {
+    path: "/Faq",
+    element: <FAQ />
   }
 ]);
 
