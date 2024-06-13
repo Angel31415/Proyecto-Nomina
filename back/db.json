@@ -9,12 +9,11 @@
       "telefono": ""
     },
     {
-      "id": "f4a8",
       "nombre": "daniel",
-      "apellido": "gamboa",
+      "apellido": "Velez",
       "correo": "danielgamboa858@gmail.com",
-      "contraseña": "1234",
-      "telefono": "3015869268"
+      "telefono": "3015869268",
+      "id": "f4a8"
     },
     {
       "id": "6a4d",
@@ -191,14 +190,6 @@
       "correo": "danielgamboa858@gmail.com",
       "contraseña": "1234",
       "telefono": "3015869268"
-    },
-    {
-      "id": "3340",
-      "nombre": "daniel",
-      "apellido": "gamboa",
-      "correo": "daniel@gmail.com",
-      "contraseña": "1234",
-      "telefono": "311245678"
     },
     {
       "id": "a303",
