@@ -1,3 +1,6 @@
+*{
+  text-decoration: none;
+}
 body{
   background-color: #EACFF3;
 }
@@ -11,6 +14,7 @@ body{
 }
 
 .navbar-title {
+  font-family: monospace;
   font-size: 60px;
   color: #BA677E;
   margin-left: 10%;
@@ -28,13 +32,17 @@ body{
   margin-left: 20px; /* Ajusta el margen entre los enlaces */
   text-decoration: none;
   color: black;
+  font-family: monospace;
   font-weight: bold;
   color: #BA677E;
   background-color: #EBD8DD;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .navbar-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: #9e2346;
 }
 
 .Servicios{
@@ -42,6 +50,7 @@ body{
   margin-left: 20%;
   color: #096372;
   font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .liquidacion-container {
@@ -53,13 +62,14 @@ body{
 .liquidacion {
   background-color: #AAC9CE;
   padding: 20px; /* Ajusta el relleno según sea necesario */
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   width: 400px; /* Ajusta el ancho según sea necesario */
   height: 150px;
 }
 
 .titulo{
+  font-family: monospace;
   margin-top: 0px;
   font-size: 40px;
   color: #BA677E;
@@ -86,13 +96,14 @@ p{
 .empleados {
   background-color: #AAC9CE;
   padding: 20px; /* Ajusta el relleno según sea necesario */
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   width: 400px; /* Ajusta el ancho según sea necesario */
   height: 150px;
 }
 
 .titulo-empleados{
+  font-family: monospace;
   margin-top: 0px;
   font-size: 40px;
   color: #BA677E;
@@ -114,25 +125,30 @@ p{
   margin-top: 60px; /* Ajusta el margen superior según sea necesario */
   display: flex;
   margin-left: 15%;
+  
 }
 
 .FAQ {
   background-color: #AAC9CE;
   padding: 20px; /* Ajusta el relleno según sea necesario */
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   width: 400px; /* Ajusta el ancho según sea necesario */
   height: 150px;
+  
 }
 
 .titulo-FAQ{
+  font-family: monospace;
   margin-top: 0px;
   font-size: 40px;
   color: #BA677E;
+  
 }
 p{
   color: #CD2151;
   font-size: 20px;
+  
 }
 
 .FAQ h2 {
@@ -165,11 +181,13 @@ p{
   margin-bottom: 0px;
 }
 .contactenos{
+  font-family: monospace;
   color: #BA677E;
   font-size: 40px;
   margin-left: 20px;
 }
 .Redes{
+font-family: monospace;
 margin-left: 60%;
 font-size: 40px;
 color:  #BA677E;
@@ -184,12 +202,18 @@ margin-top: -245px;
 
 .tel{
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #534e50;
 }
 .correo{
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #534e50;
 }
 .dir{
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #534e50;
 }
 .logos{
   margin-left: 58%;
@@ -209,14 +233,20 @@ margin-top: -245px;
   margin-left: 65%;
   margin-top: -190px;
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #534e50;
 }
 .instagram-text{
   margin-left: 65%;
   margin-top: 50px;
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #534e50;
 }
 .twiter-text{
   margin-left: 65%;
   margin-top: 50px;
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #534e50;
 }
